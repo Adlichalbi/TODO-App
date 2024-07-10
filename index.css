@@ -1,0 +1,92 @@
+body {
+  background-color: #24272c;
+  align-content: center;
+  font-family: sans-serif; /* Set a basic font family */
+  margin: 0; /* Remove default margin from body */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw; /* Set container width (50% viewport width) */
+  margin: 50px auto; /* Add some margin for better positioning */
+  background-color: #24272c; /* Set container background color */
+  border-radius: 10px; /* Add rounded corners to container */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+  padding: 20px; /* Add some padding inside the container */
+}
+
+.header {
+  color: #00ffc4;
+  font-size: 2rem; /* Increase header font size */
+  margin-bottom: 20px; /* Add some space below the header */
+}
+
+.input {
+  background-color: rgb(37, 35, 35);
+  border: solid #f9f9f9 1px;
+  border-radius: 15px;
+  width: 100%; /* Set input width to full width */
+  height: 40px; /* Adjust input height */
+  color: #f9f9f9;
+  padding: 10px; /* Add some padding inside the input */
+}
+
+.add {
+  background-color: #00ffc4;
+  border: none; /* Remove border from button */
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px; /* Adjust button padding */
+  cursor: pointer; /* Indicate clickable element */
+  margin-left: 10px; /* Add some margin to the left */
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  width: 100%; /* Set form width to full width */
+}
+
+.task {
+  display: flex; /* Make checkbox fit within the list item */
+  align-items: center; /* Align checkbox vertically */
+  margin-right: 10px; /* Add some margin to the right */
+  
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 80%;
+  padding-left: 0;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+.li {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #4a4d57;
+  color: #00ffc4;
+  padding: 15px; /* Add padding inside list items */
+  border-radius: 5px; /* Add rounded corners to list items */
+  margin-bottom: 5px; /* Add some margin between list items */
+  transition: background-color 0.2s ease-in-out; /* Add smooth transition effect */
+  white-space: wrap;
+  justify-content:space-between;
+  align-items: center;
+
+}
+
+.li:hover {
+  background-color: #3f424a; /* Change background color on hover */
+}
+.delete-button {
+  background: none; /* Remove button background */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Show pointer cursor on hover */
+  display: flex;
+}
